@@ -1,6 +1,6 @@
 $(document).ready(function(){
  $("#pie").click(function(){
     var item = $('#input').val();
-    $('#boxes').append("<p class='box'>"+item+"</p>");
+    $('#boxes').append("<li class='box'>"+item+"</li>");
  });
 });
