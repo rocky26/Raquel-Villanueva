@@ -7,3 +7,8 @@ header{
 #input_holder{
   margin-left:650px;
 }
+
+.box {
+ border: solid;
+ margin-left:650px;
+}
