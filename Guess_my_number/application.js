@@ -3,22 +3,25 @@ $(document).ready(function(){
   var chooseNumber = Math.floor(Math.random()* 100)
   
   //when the player clicks on the 'guess' button
-  $('button').on('click', function(){
+  $('button').on('click', function()){
     //save their guess as a variable
     var guess = parseInt($("input").val());
     
     //and compare this guess to the random number that the computer picked
     //if the user guessed the correct number...
-    if(guess===chooseNumber )
+    if(guess===chooseNumber ){
       //what happens if the guess is correct?
-      console.log(You Are Correct)
+      console.log(You Are Correct);
+    }
     //if the user guessed too high...
-    if ( guess > chooseNumber )
+    if ( guess > chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess lower
-      console.log( guess lower )
+      console.log( guess lower );
+    }
     //otherwise, the user guessed too low...
-    if  ( guess < chooseNumber )
+    if  ( guess < chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess higher
-    console.log ( guess higher )
+    console.log ( guess higher );
+    }
   });
 });
