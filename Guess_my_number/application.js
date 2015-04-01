@@ -11,17 +11,17 @@ $(document).ready(function(){
     //if the user guessed the correct number...
     if(guess===chooseNumber ){
       //what happens if the guess is correct?
-      console.log("You Are Correct");
+      $('#feedback').append("You Are Correct");
     }
     //if the user guessed too high...
     if ( guess > chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess lower
-      console.log( "guess lower" );
+      $('#feedback').append( "guess lower" );
     }
     //otherwise, the user guessed too low...
     if  ( guess < chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess higher
-    console.log ( "guess higher" );
+    $('#feedback').append ( "guess higher" );
     }
   });
 });
