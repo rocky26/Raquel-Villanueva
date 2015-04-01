@@ -23,6 +23,6 @@ $(document).ready(function(){
       //update the 'feedback' paragraph to tell them to guess higher
     $('#feedback').append ( "guess higher" );
     }
-    setTimeout($('input').val(""));, 3000;
+    $('input').val(""); 
   });
 });
