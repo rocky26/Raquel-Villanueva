@@ -14,6 +14,7 @@ $(document).ready(function(){
     if(guess===chooseNumber ){
       //what happens if the guess is correct?
       $('#feedback').append("You Are Correct");
+      chooseNumber = Math.floor(Math.random()* 100);
     }
     //if the user guessed too high...
     if ( guess > chooseNumber ){
