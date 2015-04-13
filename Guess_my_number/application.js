@@ -27,8 +27,8 @@ $(document).ready(function(){
     $('#feedback').append ( "guess higher" );
     }
     $('input').val(""); 
-    $('#guess_counter').empty()
-    $("#guess_counter").append ("Guesses so far: " +  numberofGuesses);
+    $('#guess_counter').empty();
+    $("#guess_counter").append("Guesses so far: " +  numberofGuesses);
     
     
     
