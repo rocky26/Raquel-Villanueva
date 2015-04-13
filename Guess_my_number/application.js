@@ -24,7 +24,7 @@ $(document).ready(function(){
     //otherwise, the user guessed too low...
     if  ( guess < chooseNumber ){
       //update the 'feedback' paragraph to tell them to guess higher
-    $('#feedback').append ( "guess higher" );
+    $('#feedback').append( "guess higher" );
     }
     $('input').val(""); 
     $('#guess_counter').empty();
