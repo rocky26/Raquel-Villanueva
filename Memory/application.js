@@ -40,7 +40,8 @@ function shuffle(array) {
         $('.clicked').css("color","blue").removeClass('clicked');
       }
       else{
-        $('.clicked').css("opacity",0).removeClass('clicked');
+        setTimeout(function(){ $('.clicked').css("opacity",0).removeClass('clicked');}, 3000);
+        
       }
     }
   })
