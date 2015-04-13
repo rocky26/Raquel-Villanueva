@@ -13,7 +13,7 @@ $(document).ready(function(){
     //if the user guessed the correct number...
     if(guess===chooseNumber ){
       //what happens if the guess is correct?
-       $('#guess_counter').empty();
+       $('#feedback').empty();
       $('#feedback').append("You Are Correct");
       chooseNumber = Math.floor(Math.random()* 100);
     }
