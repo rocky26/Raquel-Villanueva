@@ -17,3 +17,6 @@ input, button {
 #guess_counter{
   font-style: italic;
 }
+body{
+ background-color: #FFC4FE;
+}
